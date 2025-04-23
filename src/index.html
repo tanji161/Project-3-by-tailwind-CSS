@@ -6,8 +6,38 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="min-w-screen min-h-screen flex justify-center md:justify-center items-center bg-gray-100">
+    <div class="box-container flex flex-col  md:flex-row  md:justify-between  md:w-[900px] min-h-[600px] md:p-3 bg-white shadow-2xl" >
+        <div class=" h-[596px] w-[500px] hover:bg-[#cedbf3]  bg-[#E2ECFF] flex flex-col justify-center items-center ">
+        <div class="box1 w-[300px] h-[240px] flex flex-col justify-between items-center  text-center py-2">
+            <img class="w-[80px] rounded-2xl" src="img/images.png" alt="Tanji">
+            <h1 class="text-2xl font-bold">Let us help you run your own platform<h1>
+            <p class="text-sm text-gray-600 px-6">Our Registration process is quicker than other edtech platform</p>
+        </div>
+    </div>
+        <div class="box2 w-[500px] h-[596px] flex flex-col justify-center gap-5 p-9">
+            <div class="text">
+                <h2 class="text-2xl font-bold my-1">Get Started</h2>
+                <p class="text-sm text-gray-600 font-medium">Create your account now!</p>
+            </div>
+            <div class="form">
+                <div class="input">
+                    <label class="text-gray-600"  for="name">Full Name</label><br>
+                    <input type="text" name="name" class="border-2 w-full h-10 p-4 border-gray-400 rounded-lg my-3" id="name" placeholder="eg:Tabassum Tanji">
+                </div>
+                <div class="input">
+                    <label class="text-gray-600"  for="email">Email</label><br>
+                    <input class="border-2 w-full h-10 p-4 border-gray-400 rounded-lg my-3" type="email" name="email" class="email" id="email" placeholder="eg: example@gmail.com">
+                </div>
+                <div class="input">
+                    <label class="text-gray-600" for="pass">Password</label><br>
+                    <input class="border-2 w-full h-10 p-4 border-gray-400 rounded-lg my-3" type="password" name="pass" class="pass" id="pass">
+                </div>
+               <button class=" text-white font-medium border-2 border-sky-400 w-full h-11 bg-sky-400 rounded-lg my-3 hover:bg-sky-500 " type="submit">Sign Up</button>
+            </div>
+            <p class="text-gray-500 font-medium text-center">Already a member ? <a class="text-sky-600"  href="#">Sign Up</a></p>
+        </div>
+    </div>
+  </div>
 </body>
 </html>
